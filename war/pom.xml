@@ -99,7 +99,7 @@ THE SOFTWARE.
       -->
       <groupId>org.jenkins-ci</groupId>
       <artifactId>winstone</artifactId>
-      <version>5.6</version>
+      <version>5.8</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -515,11 +515,6 @@ THE SOFTWARE.
             </systemProperty>
             <systemProperty>
               <name>hudson.Main.development</name>
-              <value>true</value>
-            </systemProperty>
-            <systemProperty>
-              <!-- this adds 3 sec to the shutdown, and most likely pointless, too -->
-              <name>hudson.DNSMultiCast.disabled</name>
               <value>true</value>
             </systemProperty>
           </systemProperties>
